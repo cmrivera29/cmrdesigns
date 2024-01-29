@@ -1,0 +1,81 @@
+body { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkgray;
+
+    /*THIS IS A NOTE TO MYSELF*/
+}
+
+
+h1{ 
+    color: rgb(167, 27, 27);
+    font-size: 60px;
+    background-color: black;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 4, 4);
+    text-align: center;
+}
+
+h3 {
+
+    color: brown;
+}
+
+h4 {
+
+    color: blueviolet;
+}
+
+h5 {
+
+    color: chocolate;
+
+}
+
+h6 {
+
+    color: blue;
+}
+
+a{
+
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+
+    color:peru
+    text-decoration: underline;
+}
+
+a:visited {
+    color: darkgray;
+}
+
+a:visited:hover {
+    color:black
+
+}
+hr {
+    border-top: 5px; dotted color
+    border-bottom: none;
+}
+
+ul {
+
+    list-style-type:none;
+    color: blueviolet;
+}
+ul li {
+    display: inline
+}
+
+ol li {
+    font-size: 14px;
+}
