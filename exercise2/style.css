@@ -1,12 +1,12 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(73, 228, 255);
-    img
-        max-width: 500px;
+  
+        /* max-width: 500px;
         float:left;
         border-radius: 10px;
-        border: 20px solid rgb(255, 0, 0)
-        margin-right: 100px;
+        border: 20px solid rgb(255, 0, 0);
+        margin-right: 100px; */
     }
 
     *{
@@ -17,12 +17,22 @@ body {
 
     }
     body{
-        display: flex;
+       /*  display: flex;
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-
+    */
     }
+
+/* the new div container is what needs display:flex which we are covering in future classes. */
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+width: 5000px;
+}
+
     .container{
         margin: 20px;
         margin: 50%;
