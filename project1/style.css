@@ -1,0 +1,363 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+
+                
+
+#opener {
+    width: 100%;
+    height: 100vh;
+background-image: url(images/Fog\ Overlay\ \ By\ Walllow\ 13.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.quote{
+    position:relative;
+    top:100px;
+    left:100px;
+    z-index: 1000;
+    width: 60%;
+}
+
+h2{
+    color: white;
+    font-family: 'The Godfather', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    font-size: 200px;
+
+}
+
+h3{
+    color: white;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: 400;
+    margin: top;
+}
+
+
+
+
+.face {
+    background-image: url(images/godfather.silhouette.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    position:absolute;
+    left: -50px;
+    top:0px;
+    z-index: 999;
+    
+}
+
+
+.hand {
+    background-image: url(images/white.hand.mario.puzo.png);
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 800px;
+    background-size: contain;
+    position: absolute;
+    right: -200px;
+    top: -90px;
+    
+}
+
+
+ /*BOOK SECTION---------------------------------*/
+
+#next {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/Fog\ Overlay\ \ By\ Walllow\ 9.png);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+   /*50*/
+.blurb h2 {
+    
+    color: rgb(255, 255, 255);
+    font-family: 'The Godfather', sans-serif;
+    font-size: 300px;
+    text-align: center;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    width: 30%;
+    margin: -10px 0px 0px 300px;
+
+}
+
+
+   /*anniversary*/
+   .blurb h4 {
+    
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    width: 65%;
+    margin: -60px 10px 10px 100px;
+
+}
+
+
+   /*th*/
+   .blurb h5 {
+    
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    width: 65%;
+    margin: -265px 100px 250px 225px;
+
+}
+
+
+   /*the godfather...*/
+.blurb p {
+    
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    width: 65%;
+    margin: 0px 10px 10px 100px;
+
+}
+
+   /*blurb*/
+.blurb h3 {
+    
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    margin: 60px 0px 10px 200px;
+
+}
+
+
+.book {
+    background-image: url(images/front.cover.jpg);
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 700px;
+    background-size: contain;
+    position: absolute;
+    right: 100px;
+    top: 90px;
+    
+}
+
+
+
+
+.vito {
+    background-image: url(images/portrait-of-don-vito-corleone-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 700px;
+    background-size: contain;
+    position: absolute;
+    left: -300px;
+    top: 460px;
+    
+}
+
+
+
+
+   /*AUTHOR SECTION------------------------------------------*/
+
+
+#author {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/Fog\ Overlay\ \ By\ Walllow\ 2.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+   /*MARIO PUZO TITLE*/
+.mario h2 {
+    
+    color: rgb(255, 255, 255);
+    font-family: 'The Godfather', sans-serif;
+    font-size: 155px;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    width: 120%;
+    margin: -400px 0px 0px 575px;
+
+}
+
+   /*sub heading author*/
+.mario p {
+    
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    margin: -20px 10px 10px 575px;
+
+}
+
+   /*blurb*/
+.mario h3 {
+    
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 120%;
+    margin: 10px 10px 10px 550px;
+
+}
+
+
+.mario {
+    background-image: url(images/Mario_Puzo_1972_\(cropped\).jpg);
+    background-repeat:no-repeat;
+    width: 700px;
+    height: 700px;
+    background-size:contain;
+    position: relative;
+    left: 300px;
+    top: 450px;
+
+}
+
+   /*character column
+
+         <img src="images/bowtie.png" height="300px" alt="man with bowtie">
+----------------------------------------------*/
+
+
+.flex-area {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(images/Fog\ Overlay\ \ By\ Walllow\ 5.png);
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.tie {
+    background-image: url(images/bowtie.png);
+    background-repeat: no-repeat;
+    width:300px;
+    height: 300px;
+    background-size: contain;
+    position:absolute;
+
+
+}
+
+
+
+
+h4{
+    font-family: 'The Godfather', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: 
+    "width" 100;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+
+.column {
+    width: 40%;
+    margin: 50px 50px 50px 50px;
+    
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+
+span{
+    font-size: 14px;
+    color:rgb(198, 197, 197);
+    text-shadow: .2px .3px white;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 5px;
+
+}
+
+
+
+li{
+
+    font-family: "inclusive sans",
+    sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        border-bottom:  1px  rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        padding: 10px 0 10px 0;
+        
+    
+}
+
+
+   /*youtube videos
+----------------------------------------------*/
+
+iframe {
+    margin: 100px 50px 100px 50px;
+ }
+
+#video-section {
+    background-image: url(images/Fog\ Overlay\ \ By\ Walllow\ 6.png)
+
+
+}
+
+#video-section h4 {
+    
+    color: rgb(255, 255, 255);
+    font-family: 'The Godfather', sans-serif;
+    font-size: 70px;
+    margin: 10px -900px 10px 400px;
+
+
+}
+
+
+
+    /* means that padding and boarders are included in height and width values */
+
+
