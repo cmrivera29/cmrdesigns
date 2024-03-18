@@ -1,0 +1,696 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+
+
+#opener {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/graph.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    overflow: hidden;
+
+
+    /*background-repeat: repeat;*/
+}
+
+
+
+h1 {
+
+
+    color: white;
+    font-family: 'Kalnia', serif;
+    text-align: center;
+    font-size: 100px;
+    margin-top:  40px;
+    
+
+}
+
+.audio{
+    position:relative;
+    top:200px;
+    left:100px;
+    z-index: 1000;
+    width: 60%;
+
+ 
+}
+
+
+.audio p {
+    color: white;
+    font-family: "inclusive sans";
+    font-size: 28px;
+    line-height: 1.2;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+
+.graph {
+    background-image: url(images/edges.gif);
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 400px;
+    position:absolute;
+    align-content: center;
+
+    
+}
+
+.flex-area {
+
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+.column h2 {
+    color: white;
+    font-family: "inclusive sans";
+    font-size: 28px;
+    line-height: 1.2;
+    justify-content: center;
+    margin-top: 500px;
+    width: 80%;
+    margin: 100px 10px 100px 100px;
+
+}
+
+.column {
+    width: 50%;
+    margin: 0px 0px 0px 0px;
+
+}
+
+
+
+
+.flex-area2 {
+
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+.column2 h2 {
+    color: white;
+    font-family: "inclusive sans";
+    font-size: 28px;
+    line-height: 1.2;
+    justify-content: center;
+    margin-top: 500px;
+    width: 80%;
+    margin: 10px 10px 100px 1000px;
+
+}
+
+.column2 {
+    width: 50%;
+    margin: 0px 0px 0px 0px;
+
+}
+
+
+.hero {
+    background-image: url(images/hero.avif);
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 800px;
+    position:absolute;
+    align-content: center;
+    margin: 10px 10px 100px 100px;
+}
+
+
+.flex-area3 {
+
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+.column3 h2 {
+    color: white;
+    font-family: "inclusive sans";
+    font-size: 28px;
+    line-height: 1.2;
+    justify-content: center;
+    margin-top: 500px;
+    width: 80%;
+    margin: 100px 10px 100px 100px;
+
+}
+
+.column3 {
+    width: 50%;
+    margin: 0px 0px 0px 0px;
+
+}
+
+
+.dot {
+    background-image: url(images/dots.gif);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 500px;
+    position:absolute;
+    align-content: center;
+    margin-top: 100px;
+}
+
+
+
+    /*background-repeat: repeat;
+
+
+
+
+
+
+
+.flex-area h2{
+    color: white;
+    font-family: "inclusive sans";
+    font-size: 28px;
+    line-height: 1.2;
+    align-content: baseline;
+    margin-top: 220px;
+    z-index: 9999;
+
+}
+
+h3{
+    color: white;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: 400;
+    margin: top;
+}
+
+
+
+
+.flex-area {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+
+
+*/
+
+h4{
+    font-family: 'Kalnia', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: 
+    "width" 100;
+    font-size: 30px;
+    color: yellow;
+    margin-bottom: 40px;
+
+}
+
+
+
+
+/*css grid
+grid area shorthand
+grid row start / grid column start / grid row end / grid column end
+*/
+
+
+
+
+
+
+/*poem section*/
+
+#poem-section {
+
+background-color: black;
+padding: 300px 0;
+background-image: url(images/moon-blue.png);
+background-position: top left;
+
+}
+
+.text {
+
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
+.text p {
+    color: white;
+    font-family: "inclusive sans";
+    font-size: 28px;
+    line-height: 1.7;
+
+}
+
+.circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color:navy;
+    border-radius: 5px;
+    margin: 0 10px 0 10px;
+    transition: all 1s;
+}
+
+.circle:hover {
+    background-color: rgb(0, 0, 0);
+    cursor: crosshair;
+    width: 100px;
+}
+
+.word {
+    opacity: 0;
+    transition: all 1s;
+    padding-left: 20px;
+    color: yellow;
+}
+
+.circle:hover .word{
+    opacity: 1;
+}
+
+
+.laugh {
+
+    display: inline-block;
+    background-color:navy;
+    color: yellow;
+    font-size: 20px;
+    padding: 5px;
+    transition: all 2s;
+
+}
+
+.laugh:hover {
+    transform: rotate(180deg);
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+@keyframes movestars {
+0% {background-position: 0 0;}
+100% {background-position: 10000px 0;}
+
+    
+}
+
+.moon1 {
+
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation:movemoon 10s infinite alternate;
+}
+
+@keyframes movemoon {
+    0% {top: 0; left 0;}
+    50% {top: 500px;}
+    100% {left:1000px}
+    
+        
+    }
+
+
+    .moon2 {
+
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation: rotatemoon 5s infinite alternate;
+    
+    }
+    
+    @keyframes rotatemoon {
+        0% {transform: rotate(0deg);
+        bottom: 0;
+        right: 0;
+        }
+
+        50% { 
+            bottom: 50%;
+            right: 50%;
+
+        }
+
+    
+        100% {transform: rotate(360deg);
+        bottom:90%;
+        right:90%;
+        opacity: 0.2;
+
+        }
+
+    }
+
+
+
+    .moon3 {
+
+        width: 600px;
+        height: 600px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation: movemoon 20s 5s infinite alternate;
+
+        /* animation property: name duration delay iteration-count direction */
+
+
+    }
+
+           /* header */     
+
+header {
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999999;
+}
+
+
+
+
+nav{
+    
+    text-align: center;
+
+}
+
+
+nav ul li {
+    display: inline-block;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 10px;
+
+}
+
+nav a{
+
+    color: pink;
+    text-decoration: none;
+    background-color: black;
+    padding: 5px 10px;
+    transition: all 0.5s;
+
+
+}
+
+nav a:hover {
+    color:yellow;
+    background-color: gray;
+
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+
+/*media queries */
+
+@media screen and (max-width: 500px) {
+
+    .flex-area {
+        flex-direction: column;
+
+    }
+
+    .dot {
+        background-color: black;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        align-content: center;
+        margin-top: 100px;
+    }
+
+
+    .hero {
+        background-image: none;
+        background-repeat: no-repeat;
+        width: 800px;
+        height: 800px;
+        position:absolute;
+        align-content: center;
+        margin: 10px 10px 100px 100px;
+    }
+    
+    .audio p {
+        color: white;
+        font-family: "inclusive sans";
+        font-size: 18px;
+        line-height: 1.2;
+        justify-content: center;
+        margin-top: 20px;
+    
+    }
+
+
+    .column h2 {
+        color: white;
+        font-family: "inclusive sans";
+        font-size: 18px;
+        line-height: 1.2;
+        justify-content: center;
+        margin-top: 500px;
+        width: 80%;
+        margin: 100px 10px 100px 100px;
+    
+    }
+
+    .graph {
+        background-image: none;
+        background-repeat: no-repeat;
+        width: 800px;
+        height: 400px;
+        position:absolute;
+        align-content: center;
+    
+        
+    }
+
+    .text {
+
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .text h2 {
+        font-size: 20px;
+        color: white;
+        margin-bottom: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    
+    
+    
+    .text p {
+        color: white;
+        font-family: "inclusive sans";
+        font-size: 18px;
+        line-height: 1.7;
+    
+    }
+
+    .flex-area2 {
+
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    
+    
+    
+    
+    .column2 h2 {
+        color: white;
+        font-family: "inclusive sans";
+        font-size: 15px;
+        line-height: 1.2;
+
+
+        width: 70%;
+        margin: 0px 10px 100px 6cm;
+    
+    }
+    
+    .column2 {
+        width: 90%;
+        margin: 0px 0px 0px -20px;
+    
+    }
+    
+    
+    .hero {
+        background-color: black;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 10px 10px 100px 100px;
+    }
+
+
+    .flex-area3 {
+
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    
+    
+    
+    
+    .column3 h2 {
+        color: white;
+        font-family: "inclusive sans";
+        font-size: 18px;
+        line-height: 1.2;
+        justify-content: center;
+        margin-top: 500px;
+        width: 50%;
+
+    
+    }
+    
+    .column3 {
+        width: 50%;
+        margin: 0px 0px 0px 0px;
+    
+    }
+    
+    
+    .dot {
+        background-image: none;
+        background-repeat: no-repeat;
+        width: 600px;
+        height: 500px;
+        position:absolute;
+        align-content: center;
+        margin-top: 100px;
+    }
+    
+
+
+    #opener {
+        background: none;
+        background-color: black
+
+
+    }
+
+    .audio p {
+        color: white;
+        font-family: "inclusive sans";
+        font-size: 10px;
+        line-height: 1.2;
+        justify-content: center;
+        margin-top: 20px;
+    
+    }
+    
+
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    
+
+  
+#opener {
+    background: none;
+    background-color: green
+
+
+}
+
+
+
+}
+
+
+    /*means that padding and boarders are included in height and width values
+
+
