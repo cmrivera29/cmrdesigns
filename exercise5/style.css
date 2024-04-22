@@ -1,0 +1,446 @@
+body { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkgray;
+
+    /*THIS IS A NOTE TO MYSELF*/
+}
+
+.jacquard-24-regular {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+h1
+
+  { 
+      color: rgb(167, 27, 27);
+      font-size: 80px;
+      background-color: black;
+      text-align: center;
+      font-family: "Jacquard 24";
+      font-style: normal;
+  }
+
+
+
+
+
+
+h5
+
+{ 
+    color: rgb(167, 27, 27);
+    font-size: 80px;
+    text-align: center;
+    font-family: "Jacquard 24";
+    font-style: normal;
+    margin-top: 10px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-left: 100px;
+    width: 80%;
+}
+
+
+
+
+a{
+
+    color: orange;
+    text-decoration: none;
+}
+
+h2 {
+
+    color: rgba(164, 0, 0, 0.854);
+    font-size: 50px;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    width: 80%;
+
+
+}
+
+h2:hover {
+
+    color:rgba(255, 255, 255, 0);
+    transform: rotate(360deg);
+    
+}
+
+
+
+
+
+
+
+
+    
+
+.div2
+        { grid-area: 2 / 1 / 3 / 2;
+        background-image: url(images/red.3.jpg);
+        background-size:cover;
+        background-position: center;
+        height: 50vh;
+        width: 50%;
+        margin-left: 15%;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    * {
+        margin: 0; 
+        padding: 0;
+        box-sizing: border-box; 
+            /*means that padding and boarders are included in height and width values */
+    
+    }
+    
+    
+    body {
+     font-family: "libre baskerville", serif;
+    
+    
+        /*background-repeat: repeat;*/
+    }
+    
+    #intro {
+    
+        background-image: url(images/pexels-wayne-evans-567186.jpg);
+        
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    
+    }
+    
+    #title {
+    
+            text-align: center;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+                /*bdisplay text will position the text in the center of the, parent and children;*/
+    }
+    
+    h1 {
+    
+        font-size: 80px;
+        font-style: italic;
+        font-weight: 400;
+    }
+    
+    h2 {
+    
+        font-family: "robato flex", sans-serif;
+        font-size: 30px;
+    
+    }
+    
+
+            
+
+    
+         
+    
+            h3 {
+    
+                
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 50px;
+                font-weight: 400;
+                color:white;
+                text-align: center;
+    
+    
+            }
+    
+
+            .him:hover h3,
+            .her:hover h3{
+            
+                color: rgba(255, 140, 0, 0.903);
+                
+            }
+
+    .him, 
+    .her {
+    
+        text-align: center;
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100%;
+        transition: all 0.5s;
+    
+    }
+    
+    
+    .center {
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    
+    .him:hover{
+    
+        background-color: rgba(128, 0, 0, 0.7);
+        
+        
+    }
+    
+
+    
+    .btn{
+        display:inline-flex;
+        background-color: rgb(139, 1, 1);
+        border-radius: 20px;
+        color:white;
+        font-family: "robato flex", sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 20px 30px;
+        margin-top: 50px; 
+        text-transform: uppercase;
+     
+    
+    }
+    
+    .btn:hover {
+    
+            background-color: black;
+    
+    }
+
+
+
+    .btn2{
+        display:inline-flex;
+        background-color: rgb(139, 1, 1);
+        border-radius: 20px;
+        color:white;
+        font-family: "robato flex", sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 20px 30px;
+        margin-top: 50px; 
+        text-transform: uppercase;
+     
+    
+    }
+    
+    .btn2:hover {
+    
+            background-color: black;
+    
+    }
+ 
+    
+    .btn3{
+        display:inline-flex;
+        background-color: rgb(139, 1, 1);
+        border-radius: 20px;
+        color:white;
+        font-family: "robato flex", sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 20px 30px;
+        margin-top: 50px; 
+        text-transform: uppercase;
+     
+    
+    }
+    
+    .btn3:hover {
+    
+            background-color: black;
+    
+    }
+    
+    .btn4{
+        display:inline-flex;
+        background-color: rgb(139, 1, 1);
+        border-radius: 20px;
+        color:white;
+        font-family: "robato flex", sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 20px 30px;
+        margin-top: 50px; 
+        text-transform: uppercase;
+     
+    
+    }
+    
+    .btn4:hover {
+    
+            background-color: black;
+    
+    }
+
+    .btn5{
+        display:inline-flex;
+        background-color: rgb(139, 1, 1);
+        border-radius: 20px;
+        color:white;
+        font-family: "robato flex", sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 20px 30px;
+        margin-top: 50px; 
+        text-transform: uppercase;
+     
+    
+    }
+    
+    .btn5:hover {
+    
+            background-color: black;
+    
+    }
+
+    .btn6 {
+        display:inline-flex;
+        background-color: black;
+        border-radius: 20px;
+        color:white;
+        font-family: "robato flex", sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 20px 30px 20px  30px;
+        margin-top: 50px; 
+        text-transform: uppercase;
+     
+    
+    }
+    
+    .btn6:hover {
+    
+        
+            background-color: rgb(139, 1, 1);
+    }
+
+    .btn7 {
+        display:inline-flex;
+        background-color: black;
+        border-radius: 20px;
+        color:white;
+        font-family: "robato flex", sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 20px 30px 20px  30px;
+        margin-top: 50px; 
+        text-transform: uppercase;
+     
+    
+    }
+    
+    .btn7:hover {
+    
+        
+            background-color: rgb(139, 1, 1);
+    }
+
+    .btn8 {
+        display:inline-flex;
+        background-color: black;
+        border-radius: 20px;
+        color:white;
+        font-family: "robato flex", sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 20px 30px 20px  30px;
+        margin-top: 50px; 
+        text-transform: uppercase;
+     
+    
+    }
+    
+    .btn8:hover {
+    
+        
+            background-color: rgb(139, 1, 1);
+    }
+
+
+
+    .btn9 {
+        display:inline-flex;
+        background-color: black;
+        border-radius: 20px;
+        color:white;
+        font-family: "robato flex", sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 20px 30px 20px  30px;
+        margin-top: 50px; 
+        text-transform: uppercase;
+     
+    
+    }
+    
+    .btn9:hover {
+    
+        
+            background-color: rgb(139, 1, 1);
+    }
+
+
+
+
+    .parent {
+        align-items: center;
+        padding-left: 15%;
+        
+    
+        
+        }
+
+        .parent2 {
+            
+            padding-left: 65%;
+            padding-bottom: -70%;
+            
+        
+            
+            }
+    
+
+        /*his & her page*/
+    
+
+      
+    
+    
+                /*her page*/
