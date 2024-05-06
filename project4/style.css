@@ -480,7 +480,7 @@ html {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     .flex-area {
         flex-direction: column;
     }
@@ -522,7 +522,7 @@ html {
 
 
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     h1 {
         font-size: 40px;
     }
